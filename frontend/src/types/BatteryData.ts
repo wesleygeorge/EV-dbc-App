@@ -1,0 +1,42 @@
+// src/types/BatteryData.ts
+export interface BatteryData {
+  TimeStamp: string;
+  StateOfChargeBMS: number;
+  StateOfChargeDisplay: number;
+  StateOfHealth: number;
+  BatteryCurrent: number;
+  BatteryDCVoltage: number;
+  BatteryAvailableChargePower: number;
+  BatteryAvailableDischargePower: number;
+  BatteryMaxTemperature: number;
+  BatteryMinTemperature: number;
+  BatteryTemperature1: number;
+  BatteryTemperature2: number;
+  BatteryTemperature3: number;
+  BatteryTemperature4: number;
+  BatteryTemperature5: number;
+  BatteryHeaterTemperature1: number;
+  BatteryVoltageAuxillary: number;
+  BatteryFanStatus: number;
+  BatteryFanFeedback: number;
+  BMSIgnition: number;
+  BMSMainRelay: number;
+  CEC_CumulativeEnergyCharged: number;
+  CED_CumulativeEnergyDischarged: number;
+  CCC_CumulativeChargeCurrent: number;
+  CDC_CumulativeDischargeCurrent: number;
+  Charging: number;
+  MaxCellVoltage: number;
+  MaxCellVoltageCellNo: number;
+  MinCellVoltage: number;
+  MinCellVoltageCellNo: number;
+  MinDeterioration: number;
+  MinDeteriorationCellNo: number;
+  OperatingTime: number;
+  OutdoorTemperature: number;
+  Speed: number;
+  AccelerationX: number;
+  AccelerationY: number;
+  AccelerationZ: number;
+  Altitude: number;
+}
