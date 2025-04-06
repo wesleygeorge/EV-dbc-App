@@ -1,7 +1,7 @@
 
 # EV Battery Dashboard (WIP)
 
-![EV Battery Dashboard Screenshot](screenshot.png)
+![EV Battery Dashboard Screenshot](images/EV Battery App Dash 1.png)
 
 A simple modern web application to visualize electric vehicle (EV) battery performance metrics, including State of Charge, Battery Current, Voltage, Temperature, Cell Voltages, State of Health, Speed, Acceleration, and Altitude. Built with React, TypeScript, Vite, Tailwind CSS, and Recharts, with a Work In Progress optional Flask backend for dynamic data serving.
 
