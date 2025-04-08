@@ -45,3 +45,7 @@ frontend/dist/
 .vscode/
 *.swp
 *.swo
+
+# MF4 files
+*.mf4
+mf4_files/
