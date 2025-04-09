@@ -46,6 +46,7 @@ frontend/dist/
 *.swp
 *.swo
 
-# mf4 files
+# mf4 & csv files
 *.mf4
+*.csv
 mf4_files/
